@@ -43,6 +43,11 @@ export default function RootLayout({
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>NabilMQ | Personal Portofolio</title>
         <meta name="description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
+        <meta name="keywords" content="Nabil Mutawakkil Qisthi, Nabil M Q, NabilMQ, Nabilmq, nabilmq, nabil, Software Developer, Web Developer, Mobile Developer, Flutter, Nextjs, Personal Portofolio, Portfolio, Frontend Developer" />
+        <meta name="author" content="Nabil Mutawakkil Qisthi" />
+
+        <meta name="robots" content="index, follow" />
+
         <meta property="og:title" content="NabilMQ | Personal Portofolio"/>
         <meta property="og:description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
         <meta property="og:site_name" content="NabilMQ | Personal Portofolio"/>
