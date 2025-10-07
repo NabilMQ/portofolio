@@ -36,7 +36,7 @@ export default function Project({
                 My Own Website Portofolio. There is the&nbsp;
                 <Link className="hover:cursor-pointer underline" href="https://nabilmq-personal-portofolio.vercel.app/" target="_blank">Flutter version</Link>
                   &nbsp;and the&nbsp;
-                <Link className="hover:cursor-pointer underline" href="#" target="_blank">Nextjs version</Link>
+                <Link className="hover:cursor-pointer underline" href="https://nabilmq.vercel.app/" target="_blank">Nextjs version</Link>
               </p>
             : <p className="md-typescale-body-small text-center text-light-inverse-surface dark:text-dark-inverse-surface">
                 {projectDescription}

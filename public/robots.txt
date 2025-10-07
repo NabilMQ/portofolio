@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://inserthere/sitemap.xml
+Sitemap: https://nabilmq.vercel.app/sitemap.xml

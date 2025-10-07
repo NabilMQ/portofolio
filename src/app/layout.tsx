@@ -28,9 +28,7 @@ export default function RootLayout({
       "@type": "Portofolio",
       "name": "Nabil MQ | Personal Portofolio",
       "image": [
-        "",
-        "",
-        ""
+        "https://nabilmq.vercel.app/images/me.jpg",
        ],
       "description": Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer",
     }
@@ -49,9 +47,12 @@ export default function RootLayout({
         <meta property="og:description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
         <meta property="og:site_name" content="NabilMQ | Personal Portofolio"/>
         <meta property="og:type" content="website"/>
+        <meta property="og:image" content="https://nabilmq.vercel.app/images/me.jpg" />
+
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:title" content="NabilMQ | Personal Portofolio"/>
         <meta name="twitter:description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
+        <meta name="twitter:image" content="https://nabilmq.vercel.app/images/me.jpg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}
