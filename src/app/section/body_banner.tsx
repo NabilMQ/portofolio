@@ -9,9 +9,7 @@ export default function BodyBanner() {
 
     <section className="md:max-w-[1280px] md:mx-auto mx-4 mt-[24px] flex lg:flex-row flex-col items-center justify-center md:gap-16 gap-8" id="Home">
       <div>
-        {/* <div className="w-[280px] h-[280px] bg-light-surface-dim dark:bg-dark-surface-dim rounded-full absolute z-0 mt-2 ml-2"></div> */}
         <Image
-          onMouseOver={() => {console.log("hello")}}
           className="rounded-full z-10 relative shadow-[8px_8px_0_rgba(210,210,210,1)] dark:shadow-[8px_8px_0_rgba(17,17,17,1)]"
           aria-hidden
           unoptimized={false}
