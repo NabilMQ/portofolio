@@ -23,7 +23,7 @@ export default function BodyContact() {
     <section className="w-full space-y-6" id="Contact">
       <ToastContainer />
       <CustomHeaderWithLine text={"Contact"} />
-      <div className="max-w-[1280px] flex xsm:flex-wrap xsm:flex-row flex-col  gap-3 items-center justify-center-safe box-border px-4">
+      <div className="max-w-[1280px] flex xsm:flex-wrap xsm:flex-row flex-col mx-auto gap-3 items-center justify-center-safe box-border px-4">
         {
           contactData.map(contact => (
             <Link className="xsm:w-[220px] w-full" key={contact.link} href={contact.link} target="_blank">
@@ -64,10 +64,10 @@ export default function BodyContact() {
                   {contact.icon}
                   {
                     windowSize!.windowWidth >= 768
-                      ? <p className="md-typescale-body-large w-full text-center line-clamp-1 text-light-inverse-surface dark:text-dark-inverse-surface">
+                      ? <p className="md-typescale-body-medium w-full text-center line-clamp-1 text-light-inverse-surface dark:text-dark-inverse-surface">
                           {contact.contact}
                         </p>
-                      : <p className="md-typescale-body-medium w-full text-center line-clamp-1 text-light-inverse-surface dark:text-dark-inverse-surface">
+                      : <p className="md-typescale-body-small w-full text-center line-clamp-1 text-light-inverse-surface dark:text-dark-inverse-surface">
                           {contact.contact}
                         </p>
                   }
