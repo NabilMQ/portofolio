@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nabilmq.vercel.app/sitemap.xml
+Sitemap: https://nabilmq.my.id/sitemap.xml
