@@ -36,14 +36,20 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth scroll-pt-16">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/images/favicon16.ico" sizes="16x16"/>
-        <link rel="icon" href="/images/favicon32.ico" sizes="32x32"/>
-        <link rel="icon" href="/images/favicon48.ico" sizes="48x48"/>
+        {/* <link rel="icon" href="/favicon.ico" sizes="any" />
+        
+        <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="NabilMQ | Personal Portofolio" />
+        <link rel="manifest" href="/images/site.webmanifest" />
+
+
         <link rel="icon" href="/images/favicon.svg" sizes="any" type="image/svg+xml"/>
         <link rel="apple-touch-icon" href="/apple_icon/appleicon.png" sizes="180x180" type="image/png"/>
         <link rel="apple-touch-startup-image" href="/apple_icon/appleicon.png" sizes="180x180" type="image/png" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href="/manifest.json" /> */}
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>NabilMQ | Personal Portofolio</title>
         <meta name="description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
