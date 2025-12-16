@@ -25,7 +25,7 @@ export default function RootLayout({
       "@type": "",
       "name": "Nabil MQ | Personal Portofolio",
       "image": "https://nabilmq.my.id/images/me.jpg",
-      "description": Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer",
+      "description": "Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer",
     }
   `,
     };
