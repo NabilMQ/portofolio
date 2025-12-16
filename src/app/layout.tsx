@@ -12,9 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// TODO: CHANGE IMAGEURL AND URL FOR METADATA
-// TODO: CHANGE URL FOR JSONLD
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +25,7 @@ export default function RootLayout({
       "@type": "Portofolio",
       "name": "Nabil MQ | Personal Portofolio",
       "image": [
-        "https://nabilmq.vercel.app/images/me.jpg",
+        "https://nabilmq.my.id/images/me.jpg",
        ],
       "description": Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer",
     }
@@ -40,6 +37,13 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth scroll-pt-16">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/images/favicon16.ico" sizes="16x16"/>
+        <link rel="icon" href="/images/favicon32.ico" sizes="32x32"/>
+        <link rel="icon" href="/images/favicon48.ico" sizes="48x48"/>
+        <link rel="icon" href="/images/favicon.svg" sizes="any" type="image/svg+xml"/>
+        <link rel="apple-touch-icon" href="/apple_icon/appleicon.png" sizes="180x180" type="image/png"/>
+        <link rel="apple-touch-startup-image" href="/apple_icon/appleicon.png" sizes="180x180" type="image/png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>NabilMQ | Personal Portofolio</title>
         <meta name="description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
@@ -48,16 +52,20 @@ export default function RootLayout({
 
         <meta name="robots" content="index, follow" />
 
+        <meta name="apple-mobile-web-app-title" content="NabilMQ | Personal Portofolio" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
         <meta property="og:title" content="NabilMQ | Personal Portofolio"/>
         <meta property="og:description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
         <meta property="og:site_name" content="NabilMQ | Personal Portofolio"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:image" content="https://nabilmq.vercel.app/images/me.jpg" />
+        <meta property="og:image" content="https://nabilmq.my.id/images/me.jpg" />
 
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:title" content="NabilMQ | Personal Portofolio"/>
         <meta name="twitter:description" content="Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer"/>
-        <meta name="twitter:image" content="https://nabilmq.vercel.app/images/me.jpg" />
+        <meta name="twitter:image" content="https://nabilmq.my.id/images/me.jpg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}

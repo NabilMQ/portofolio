@@ -1,0 +1,41 @@
+{
+  "name": "NabilMQ | Personal Portofolio",
+  "short_name": "NabilMQ",
+  "description": "Nabil Mutawakkil Qisthi | Personal Portofolio | Web and Mobile Developer | Front End Developer | Software Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+        "src": "/images/favicon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+    },
+    {
+        "src": "/images/favicon16.ico",
+        "sizes": "16x16",
+        "type": "image/x-icon"
+    },
+    {
+        "src": "/images/favicon32.ico",
+        "sizes": "32x32",
+        "type": "image/x-icon"
+    },
+    {
+        "src": "/images/favicon48.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+    },
+    {
+        "src": "/apple_icon/appleicon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    }
+  ]
+}
