@@ -20,6 +20,13 @@ export default function BodyProject() {
           projectDescription={"My Own Website Portofolio. There is the Flutter version and the Nextjs Version"}
           projectTechStackImages={["/images/tech-stack/flutter.png", "/images/tech-stack/nextjs.png"]}
         />
+
+        <Project
+          projectImagePath={"/images/projects/desa-wisata-cokro-website.jpeg"}
+          projectName={"Desa Wisata Cokro Website"}
+          projectDescription={"Created with Wordpress to introduce and promote Desa Wisata Cokro. The website can be accessed through this link"}
+          projectTechStackImages={["/images/tech-stack/wordpress.png"]}
+        />
       </div>
     </section>
   );

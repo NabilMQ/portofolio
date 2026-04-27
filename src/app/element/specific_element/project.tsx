@@ -38,9 +38,14 @@ export default function Project({
                   &nbsp;and the&nbsp;
                 <Link className="hover:cursor-pointer underline" href="https://nabilmq.my.id/" target="_blank">Nextjs version</Link>
               </p>
-            : <p className="md-typescale-body-small text-center text-light-inverse-surface dark:text-dark-inverse-surface">
-                {projectDescription}
-              </p>
+            : projectDescription == "Created with Wordpress to introduce and promote Desa Wisata Cokro. The website can be accessed through this link" 
+              ? <p className="md-typescale-body-small text-center text-light-inverse-surface dark:text-dark-inverse-surface">
+                  Created with Wordpress to introduce and promote Desa Wisata Cokro. The website can be accessed through this&nbsp;
+                  <Link className="hover:cursor-pointer underline" href="https://desawisatacokro.wordpress.com/" target="_blank">link</Link>
+                </p>
+              : <p className="md-typescale-body-small text-center text-light-inverse-surface dark:text-dark-inverse-surface">
+                  {projectDescription}
+                </p>
           }
         </div>
 
